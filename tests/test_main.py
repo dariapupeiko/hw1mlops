@@ -1,5 +1,5 @@
-from myproject import greet
+from myproject import divide
 
 
-def test_greet():
-    assert greet("Alice") == "Hello, Alice"
+def test_divide():
+    assert divide(10, 2) == 5.0

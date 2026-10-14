@@ -1,4 +1,4 @@
-from myproject import greet
+from myproject import divide
 
-result = greet("Alice")
+result = divide(10, "0")
 print(result)

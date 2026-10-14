@@ -1,2 +1,6 @@
-def greet(name: str) -> str:
-    return "Hello, " + name
+﻿def divide(a: float, b: float) -> float:
+    return a / b
+
+
+def divide_bad() -> float:
+    return 10 / 0
